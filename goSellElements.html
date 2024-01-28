@@ -24,6 +24,10 @@
              supportedCurrencies: "all",
              supportedPaymentMethods: "all",
              notifications:'msg',
+             callback:(response) => {
+            console.log('response', response);
+            },
+
              labels:{
                  cardNumber:"Card Number",
                  expirationDate:"MM/YY",
