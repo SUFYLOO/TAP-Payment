@@ -8,11 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
       <link rel="shortcut icon" href="https://goSellJSLib.b-cdn.net/v2.0.0/imgs/tap-favicon.ico" />
       <link href="https://goSellJSLib.b-cdn.net/v2.0.0/css/gosell.css" rel="stylesheet" />
-      <style type="text/css">
-        .brands-container{
-                display: none;
-        }
-      </style>
+      
    </head>
    <body>
       <script type="text/javascript" src="https://goSellJSLib.b-cdn.net/v2.0.0/js/gosell.js"></script>
@@ -28,7 +24,8 @@
              publicKey:"pk_test_tXdGg5A7vb9IEuorclM0CwaV",
              language:"ar",
              supportedCurrencies: "all",
-             supportedPaymentMethods: "all",
+            // supportedPaymentMethods: "all",  
+             supportedPaymentMethods: [ "KNET", "AMERICAN_EXPRESS", "BENEFIT", "MADA","VISA","MASTERCARD", "FAWRY", "OMANNET","APPLE_PAY","GOOGLE_PAY"],
              notifications:'msg',
              callback:(response) => {
             console.log('response', response);
