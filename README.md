@@ -1,5 +1,3 @@
 sk_test_gGS7O1DhEN3s6yxQkmRZ89dr
 pk_test_tXdGg5A7vb9IEuorclM0CwaV
 
-sk_live_G0NWmkYUsAaT5DQhqPfBJb8j
-pk_live_nokJ7IH6AVDmT8iv9GXesyPj
